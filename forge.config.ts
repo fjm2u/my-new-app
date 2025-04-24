@@ -15,7 +15,7 @@ require('dotenv').config();
 const config: ForgeConfig = {
   packagerConfig: {
     asar: true,
-    icon: './public/images/icon/icon',
+    icon: './images/icon/icon',
     osxSign: {
       identity: process.env.PUBLIC_IDENTIFIER,
     },
